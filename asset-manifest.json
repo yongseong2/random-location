@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/today-meet/static/css/main.ad42a7fb.css",
-    "main.js": "/today-meet/static/js/main.39f07b90.js",
-    "static/js/787.33078a41.chunk.js": "/today-meet/static/js/787.33078a41.chunk.js",
-    "index.html": "/today-meet/index.html",
-    "main.ad42a7fb.css.map": "/today-meet/static/css/main.ad42a7fb.css.map",
-    "main.39f07b90.js.map": "/today-meet/static/js/main.39f07b90.js.map",
-    "787.33078a41.chunk.js.map": "/today-meet/static/js/787.33078a41.chunk.js.map"
+    "main.css": "/randomLocation/static/css/main.ad42a7fb.css",
+    "main.js": "/randomLocation/static/js/main.901d3e47.js",
+    "static/js/787.33078a41.chunk.js": "/randomLocation/static/js/787.33078a41.chunk.js",
+    "index.html": "/randomLocation/index.html",
+    "main.ad42a7fb.css.map": "/randomLocation/static/css/main.ad42a7fb.css.map",
+    "main.901d3e47.js.map": "/randomLocation/static/js/main.901d3e47.js.map",
+    "787.33078a41.chunk.js.map": "/randomLocation/static/js/787.33078a41.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ad42a7fb.css",
-    "static/js/main.39f07b90.js"
+    "static/js/main.901d3e47.js"
   ]
 }
