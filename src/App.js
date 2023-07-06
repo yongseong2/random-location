@@ -37,10 +37,14 @@ function App() {
     setShow(true);
   }
 
-  function deleteLocation(idx){
+  function deleteLocation(idx) {
     const copyLocations = [...locations]
     copyLocations.splice(idx, 1)
     setLocations(copyLocations)
+  }
+  
+  function backMain() {
+    setShow(false)
   }
 
   return (
@@ -60,11 +64,11 @@ function App() {
             </form>
             {locations.map((location, idx) => {
               return (
-                <div  key={idx} className='d-flex'>
+                <div key={idx} className='d-flex'>
                   <div className='box'>
                     {location}
                   </div>
-                  <button onClick={(idx)=>deleteLocation(idx)} className='btn btn-danger'>삭제</button>
+                  <button onClick={(idx) => deleteLocation(idx)} className='btn btn-danger'>삭제</button>
                 </div>
               );
             })}
@@ -73,7 +77,13 @@ function App() {
             </button>
           </div>
         ) : null}
-        {show ? <h1>{selected}</h1> : null}
+        {show ?
+          <>
+            <p>제발 샤로수길</p>
+            <h1>"{selected}"</h1>
+            <button onClick={backMain} className='btn btn-primary'>다시하기</button>
+          </>
+          : null}
       </header>
     </div>
   );
